@@ -1,14 +1,19 @@
 import './App.css';
-import Labelnama from './components/labelnama';
+import Button1 from './components/buttun1';
+import Labelalamat from './components/labelalamat';
+import LabelNama from './components/labelnama';
 
 function App() {
   return (
     <div className="App">
-      <h1>Profile</h1>
-      <Labelnama nama ="Budi"/>
-      <Labelnama nama ="Anton"/>
-      <Labelnama nama ="Sinta"/>
-      <p> Alamat : jalan kali</p>
+
+
+    <h1>profile</h1>
+
+     <LabelNama nama="Adit" />
+     <Labelalamat alamat="jalan Bujang" />
+     <Button1/>
+
     </div>
   );
 }

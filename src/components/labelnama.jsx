@@ -1,9 +1,14 @@
-function Labelnama(props) {
+function labelnama(props) {
   return (
     <div>
-      <p>Nama saya Adalah : {props.nama}</p>
+
+        
+        <p>Nama Saya adalah : {props.nama}</p>
+ 
+
+
     </div>
   );
 }
 
-export default Labelnama;
+export default labelnama;
